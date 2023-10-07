@@ -1,38 +1,227 @@
 .App {
-  text-align: center;
+  width: 1024px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 245px;
+}
+
+.header__news_categoty {
+  display: flex;
+}
+
+.widget__title {
+  color: #6392af;
+}
+
+.widget__title:hover {
+  color: #4141a2;
+}
+
+.header__news__category_box {
+  display: flex;
+  height: 50px;
+  position: relative;
+  left: 172px;
+}
+
+.header__news {
+  margin: 10px;
+}
+
+.header_news_date {
+  margin-top: 31px;
+  color:  gray;
+}
+
+.header_news_item {
+  width: 100%;
+}
+
+.header__new-list {
+  position: relative;
+  left: 118px;
+}
+
+.header__rates_box {
+  display: flex;
+  position: relative;
+  left: 125px;
+}
+
+.header__news_box {
+  position: relative;
+}
+
+.rate__item {
+  margin: 0 10px;
+}
+
+.rate__item_text, .rate__item_num, .rate__item_difference {
+  margin: 0 5px;
+}
+
+.rate__item_text {
+  font-weight: 700;
+}
+
+.rate__item_difference {
+ color: rgb(179, 178, 178);
+}
+
+.advertising__img{
+  width: 77px;
+  border-radius: 39px;
+}
+
+.header__advertising {
+  position: relative;
+  right: -140px;
+  top: 53px;
+}
+
+.advertising__title {
+  font-weight: 700;
+  color: #4141a2;
+}
+
+.search__nav {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search__nav_item {
+  margin: 0 14px;
+  font-weight: 700;
+  color: #6392af;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search__nav_item:hover {
+  color: #4141a2;
+  font-weight: 700;
+}
+
+.body__search_form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 45px;
+}
+
+.body__search_input {
+  width: 74%;
+}
+
+.body__search_logo {  
+  margin-right: 18px;
+  font-size: 31px;
+  font-weight: 600;
+}
+
+.logo {
+  color: red;
+}
+
+.body__search_input {
+  border: 3px solid #dddd03;
+}
+
+.body__search_btn {
+  padding: 0 25px;
+  font-size: 16px;
+  background: #dddd03;
+  border: 1px solid #dddd03;
+}
+
+.body__search_example {
+  position: relative;
+  left: 178px;
+}
+
+.text {
+  color: rgb(179, 178, 178);
+}
+
+.search__banner_img {
+  width: 800px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.search__banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8px;
+  right: -66px;
+}
+
+.footer__list {
+  position: absolute;
+  left: 159px;
+  margin: 20px;
+  padding: 0;
+  columns: 3;
+}
+
+.footer__item:nth-child(2n+ 3){
+  width: 100%;
+  margin-bottom: 16px;
+  margin-top: 121px;
+}
+
+.temperature_text_title {
+  margin: 20px 0  0 ;
+}
+
+.temperature_text_title{
+  color: #6392af; 
+  margin: 0;
+}
+
+.temperature_text_title:hover {
+  color: #4141a2;
+}
+
+.temperature_today_icon {
+  width: 41px;
+}
+
+.temperature_today, .temperature {
+  display: flex;
+}
+
+.temperature_text {
+ margin: 0  0 0 24px;
+}
+
+.list__item_icon {
+  width: 17px;
+}
+
+.footer__item-list {
+  padding: 0;
+}
+
+.list__item {
+  padding: 6px 0;
+}
+
+.item__text_visited {
+  font-weight: 700;
+}
+
+.item__text_tvProgram, .item__text_ether {
+  color: rgb(179, 178, 178);
+  padding-left: 10px;
 }
